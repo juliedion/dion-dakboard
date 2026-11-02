@@ -32,3 +32,25 @@
 .photo-dots span.active{background:#f6e7c3}
 footer{color:#365a47}
 @media(max-width:700px){.dashboard{padding:24px 13px;min-height:100vh}.landscape,.top-overlay{height:540px}.hero{min-height:315px}.eyebrow{font-size:10px;letter-spacing:2px}.hero-row{margin-top:24px}.day{font-size:46px;letter-spacing:-1px}.date{font-size:18px}.time{font-size:42px}.time small{font-size:12px}.hero-bottom{margin-top:44px}.main-grid{gap:10px}.today-panel,.week-panel{min-height:390px;padding:0 10px 14px}.today-panel h2,.week-panel h2{margin:0 -10px 12px;padding:13px 10px;font-size:11px;letter-spacing:1px}.today-panel h2 span{font-size:10px}.forecast{margin-top:12px}.quote-panel{margin-top:12px}.quote-text{font-size:22px}.photos-panel{margin-top:12px}.photo-window{height:250px}}
+
+
+/* Reference composition: large scenic hero, forecast, agenda, quote, photographs */
+.dashboard{min-height:1920px;padding:50px 48px 34px;background:linear-gradient(180deg,#1b3d33 0%,#dfe7d9 47%,#f0eee4 100%)}
+.landscape{height:1040px;background:linear-gradient(180deg,rgba(10,36,32,.38),rgba(11,41,36,.05) 40%,rgba(12,42,36,.32) 73%,#dfe7d9 100%),url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85') center 45%/cover no-repeat}
+.top-overlay{height:1040px;background:linear-gradient(180deg,rgba(7,31,27,.28),transparent 42%,#e4e8dc 100%)}
+.hero{min-height:360px}
+.hero-row{align-items:center;margin-top:35px}
+.day{font-size:96px}
+.date{font-size:34px}
+.time{font-family:'Playfair Display',serif;font-size:104px;letter-spacing:-3px}
+.hero-bottom{margin-top:38px}
+.forecast{margin:0 0 24px;padding:24px 27px 28px;background:rgba(250,249,239,.91)}
+.forecast h2{font-size:20px;margin-bottom:18px}
+.forecast-days{gap:8px}
+.forecast-day{gap:8px}
+.main-grid{gap:20px}
+.today-panel,.week-panel{min-height:560px}
+.quote-panel{margin-top:24px}
+.photos-panel{margin-top:24px}
+.photo-window{height:440px}
+@media(max-width:700px){.dashboard{padding:22px 12px;min-height:100vh}.landscape,.top-overlay{height:730px}.hero{min-height:250px}.hero-row{margin-top:24px}.day{font-size:46px}.date{font-size:18px}.time{font-size:43px}.hero-bottom{margin-top:30px}.forecast{margin:0 0 12px;padding:14px 8px}.forecast h2{font-size:12px;margin-bottom:13px}.forecast-day{gap:7px}.today-panel,.week-panel{min-height:390px}.photo-window{height:260px}}
